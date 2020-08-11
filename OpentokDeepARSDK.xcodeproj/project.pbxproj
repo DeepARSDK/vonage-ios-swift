@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1222C2124E29EA200982EA6 /* DeepAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F869000024CB2BEE007E3263 /* DeepAR.framework */; };
+		A1222C2224E29EA200982EA6 /* DeepAR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F869000024CB2BEE007E3263 /* DeepAR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1222C3124E2A05C00982EA6 /* beach2 in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2424E2A05C00982EA6 /* beach2 */; };
+		A1222C3224E2A05C00982EA6 /* blur_light in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2524E2A05C00982EA6 /* blur_light */; };
+		A1222C3324E2A05C00982EA6 /* beach3 in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2624E2A05C00982EA6 /* beach3 */; };
+		A1222C3424E2A05C00982EA6 /* office in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2724E2A05C00982EA6 /* office */; };
+		A1222C3524E2A05C00982EA6 /* bg_yellow in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2824E2A05C00982EA6 /* bg_yellow */; };
+		A1222C3624E2A05C00982EA6 /* blur_high in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2924E2A05C00982EA6 /* blur_high */; };
+		A1222C3724E2A05C00982EA6 /* bg_white in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2A24E2A05C00982EA6 /* bg_white */; };
+		A1222C3824E2A05C00982EA6 /* bg_blue in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2B24E2A05C00982EA6 /* bg_blue */; };
+		A1222C3924E2A05C00982EA6 /* beach1 in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2C24E2A05C00982EA6 /* beach1 */; };
+		A1222C3A24E2A05C00982EA6 /* bg_green in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2D24E2A05C00982EA6 /* bg_green */; };
+		A1222C3B24E2A05C00982EA6 /* livingroom in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2E24E2A05C00982EA6 /* livingroom */; };
+		A1222C3C24E2A05C00982EA6 /* bg_pink in Resources */ = {isa = PBXBuildFile; fileRef = A1222C2F24E2A05C00982EA6 /* bg_pink */; };
+		A1222C3D24E2A05C00982EA6 /* lion in Resources */ = {isa = PBXBuildFile; fileRef = A1222C3024E2A05C00982EA6 /* lion */; };
+		DD009B62B801AE764EAD2EF4 /* Pods_OpentokDeepARSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBE59C3839003BF3DF0DA61 /* Pods_OpentokDeepARSDK.framework */; };
 		F869000324CB2E53007E3263 /* DeepARVideoCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869000224CB2E53007E3263 /* DeepARVideoCapturer.swift */; };
-		F869000524CB349B007E3263 /* lion in Resources */ = {isa = PBXBuildFile; fileRef = F869000424CB349B007E3263 /* lion */; };
-		F869000624CB34B7007E3263 /* DeepAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F869000024CB2BEE007E3263 /* DeepAR.framework */; };
-		F869000924CB3603007E3263 /* DeepAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F869000024CB2BEE007E3263 /* DeepAR.framework */; };
-		F869000A24CB3603007E3263 /* DeepAR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F869000024CB2BEE007E3263 /* DeepAR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F869FFED24CB2846007E3263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869FFEC24CB2846007E3263 /* AppDelegate.swift */; };
 		F869FFEF24CB2846007E3263 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869FFEE24CB2846007E3263 /* SceneDelegate.swift */; };
 		F869FFF124CB2846007E3263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869FFF024CB2846007E3263 /* ViewController.swift */; };
@@ -27,7 +39,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				F869000A24CB3603007E3263 /* DeepAR.framework in Embed Frameworks */,
+				A1222C2224E29EA200982EA6 /* DeepAR.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,9 +47,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2BA164D9A5E0AD4349E44431 /* Pods-OpentokDeepARSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpentokDeepARSDK.release.xcconfig"; path = "Target Support Files/Pods-OpentokDeepARSDK/Pods-OpentokDeepARSDK.release.xcconfig"; sourceTree = "<group>"; };
+		2EBE59C3839003BF3DF0DA61 /* Pods_OpentokDeepARSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpentokDeepARSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7B4989E2AB931B5E5FD37D /* Pods-OpentokDeepARSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpentokDeepARSDK.debug.xcconfig"; path = "Target Support Files/Pods-OpentokDeepARSDK/Pods-OpentokDeepARSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		A1222C2424E2A05C00982EA6 /* beach2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = beach2; sourceTree = "<group>"; };
+		A1222C2524E2A05C00982EA6 /* blur_light */ = {isa = PBXFileReference; lastKnownFileType = file; path = blur_light; sourceTree = "<group>"; };
+		A1222C2624E2A05C00982EA6 /* beach3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = beach3; sourceTree = "<group>"; };
+		A1222C2724E2A05C00982EA6 /* office */ = {isa = PBXFileReference; lastKnownFileType = file; path = office; sourceTree = "<group>"; };
+		A1222C2824E2A05C00982EA6 /* bg_yellow */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg_yellow; sourceTree = "<group>"; };
+		A1222C2924E2A05C00982EA6 /* blur_high */ = {isa = PBXFileReference; lastKnownFileType = file; path = blur_high; sourceTree = "<group>"; };
+		A1222C2A24E2A05C00982EA6 /* bg_white */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg_white; sourceTree = "<group>"; };
+		A1222C2B24E2A05C00982EA6 /* bg_blue */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg_blue; sourceTree = "<group>"; };
+		A1222C2C24E2A05C00982EA6 /* beach1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = beach1; sourceTree = "<group>"; };
+		A1222C2D24E2A05C00982EA6 /* bg_green */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg_green; sourceTree = "<group>"; };
+		A1222C2E24E2A05C00982EA6 /* livingroom */ = {isa = PBXFileReference; lastKnownFileType = file; path = livingroom; sourceTree = "<group>"; };
+		A1222C2F24E2A05C00982EA6 /* bg_pink */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg_pink; sourceTree = "<group>"; };
+		A1222C3024E2A05C00982EA6 /* lion */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion; sourceTree = "<group>"; };
 		F869000024CB2BEE007E3263 /* DeepAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DeepAR.framework; sourceTree = "<group>"; };
 		F869000224CB2E53007E3263 /* DeepARVideoCapturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepARVideoCapturer.swift; sourceTree = "<group>"; };
-		F869000424CB349B007E3263 /* lion */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion; sourceTree = "<group>"; };
 		F869FFE924CB2846007E3263 /* OpentokDeepARSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpentokDeepARSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F869FFEC24CB2846007E3263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F869FFEE24CB2846007E3263 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,8 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F869000624CB34B7007E3263 /* DeepAR.framework in Frameworks */,
-				F869000924CB3603007E3263 /* DeepAR.framework in Frameworks */,
+				DD009B62B801AE764EAD2EF4 /* Pods_OpentokDeepARSDK.framework in Frameworks */,
+				A1222C2124E29EA200982EA6 /* DeepAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,13 +92,36 @@
 			isa = PBXGroup;
 			children = (
 				F869000024CB2BEE007E3263 /* DeepAR.framework */,
+				2EBE59C3839003BF3DF0DA61 /* Pods_OpentokDeepARSDK.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1222C2324E2A05C00982EA6 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				A1222C2424E2A05C00982EA6 /* beach2 */,
+				A1222C2524E2A05C00982EA6 /* blur_light */,
+				A1222C2624E2A05C00982EA6 /* beach3 */,
+				A1222C2724E2A05C00982EA6 /* office */,
+				A1222C2824E2A05C00982EA6 /* bg_yellow */,
+				A1222C2924E2A05C00982EA6 /* blur_high */,
+				A1222C2A24E2A05C00982EA6 /* bg_white */,
+				A1222C2B24E2A05C00982EA6 /* bg_blue */,
+				A1222C2C24E2A05C00982EA6 /* beach1 */,
+				A1222C2D24E2A05C00982EA6 /* bg_green */,
+				A1222C2E24E2A05C00982EA6 /* livingroom */,
+				A1222C2F24E2A05C00982EA6 /* bg_pink */,
+				A1222C3024E2A05C00982EA6 /* lion */,
+			);
+			path = Filters;
 			sourceTree = "<group>";
 		};
 		CEA24A8E8C485CE0D1C5F07C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				6D7B4989E2AB931B5E5FD37D /* Pods-OpentokDeepARSDK.debug.xcconfig */,
+				2BA164D9A5E0AD4349E44431 /* Pods-OpentokDeepARSDK.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -79,7 +129,6 @@
 		F869FFE024CB2846007E3263 = {
 			isa = PBXGroup;
 			children = (
-				F869000424CB349B007E3263 /* lion */,
 				F869FFEB24CB2846007E3263 /* OpentokDeepARSDK */,
 				F869FFEA24CB2846007E3263 /* Products */,
 				CEA24A8E8C485CE0D1C5F07C /* Pods */,
@@ -98,6 +147,7 @@
 		F869FFEB24CB2846007E3263 /* OpentokDeepARSDK */ = {
 			isa = PBXGroup;
 			children = (
+				A1222C2324E2A05C00982EA6 /* Filters */,
 				F869FFEC24CB2846007E3263 /* AppDelegate.swift */,
 				F869FFEE24CB2846007E3263 /* SceneDelegate.swift */,
 				F869FFF024CB2846007E3263 /* ViewController.swift */,
@@ -117,6 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F869FFFD24CB2848007E3263 /* Build configuration list for PBXNativeTarget "OpentokDeepARSDK" */;
 			buildPhases = (
+				472C7912A92A83A80C7657D8 /* [CP] Check Pods Manifest.lock */,
 				F869FFE524CB2846007E3263 /* Sources */,
 				F869FFE624CB2846007E3263 /* Frameworks */,
 				F869FFE724CB2846007E3263 /* Resources */,
@@ -169,14 +220,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1222C3D24E2A05C00982EA6 /* lion in Resources */,
+				A1222C3924E2A05C00982EA6 /* beach1 in Resources */,
+				A1222C3C24E2A05C00982EA6 /* bg_pink in Resources */,
+				A1222C3524E2A05C00982EA6 /* bg_yellow in Resources */,
+				A1222C3224E2A05C00982EA6 /* blur_light in Resources */,
+				A1222C3A24E2A05C00982EA6 /* bg_green in Resources */,
+				A1222C3124E2A05C00982EA6 /* beach2 in Resources */,
+				A1222C3B24E2A05C00982EA6 /* livingroom in Resources */,
+				A1222C3824E2A05C00982EA6 /* bg_blue in Resources */,
+				A1222C3724E2A05C00982EA6 /* bg_white in Resources */,
+				A1222C3424E2A05C00982EA6 /* office in Resources */,
 				F869FFF924CB2848007E3263 /* LaunchScreen.storyboard in Resources */,
 				F869FFF624CB2848007E3263 /* Assets.xcassets in Resources */,
-				F869000524CB349B007E3263 /* lion in Resources */,
+				A1222C3324E2A05C00982EA6 /* beach3 in Resources */,
+				A1222C3624E2A05C00982EA6 /* blur_high in Resources */,
 				F869FFF424CB2846007E3263 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		472C7912A92A83A80C7657D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpentokDeepARSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F869FFE524CB2846007E3263 /* Sources */ = {
@@ -328,10 +416,17 @@
 		};
 		F869FFFE24CB2848007E3263 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7B4989E2AB931B5E5FD37D /* Pods-OpentokDeepARSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OpentokDeepARSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,10 +440,17 @@
 		};
 		F869FFFF24CB2848007E3263 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA164D9A5E0AD4349E44431 /* Pods-OpentokDeepARSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = OpentokDeepARSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

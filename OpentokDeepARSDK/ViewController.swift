@@ -25,6 +25,9 @@ class ViewController: UIViewController, OTSessionDelegate, ARViewDelegate, OTPub
 
   var otPublisher: OTPublisher?
 
+  var currentFilterIndex: Int = 0
+  let filters = ["lion","beach1","beach2","beach3","bg_blue","bg_green","bg_pink","bg_white","bg_yellow","blur_high","blur_light","livingroom","office"]
+
   lazy var deepARCapturer = {
     return DeepARVideoCapturer()
   }()
@@ -55,6 +58,12 @@ class ViewController: UIViewController, OTSessionDelegate, ARViewDelegate, OTPub
 
   @IBAction func startCall(_ sender: Any) {
     otSession?.connect(withToken: kToken, error: nil)
+  }
+
+  @IBAction func changeFilter(_ sender: Any) {
+    currentFilterIndex = (currentFilterIndex + 1) % filters.count
+    let nextFilter = filters[currentFilterIndex]
+    deepARView.switchEffect(withSlot: "effect", path: Bundle.main.path(forResource: nextFilter, ofType: ""))
   }
 
   func doPublishWithARFrame() {
@@ -113,7 +122,8 @@ class ViewController: UIViewController, OTSessionDelegate, ARViewDelegate, OTPub
   }
 
   func didInitialize() {
-    deepARView.switchEffect(withSlot: "effect", path: Bundle.main.path(forResource: "lion", ofType: ""))
+    let nextFilter = filters[currentFilterIndex]
+    deepARView.switchEffect(withSlot: "effect", path: Bundle.main.path(forResource: nextFilter, ofType: ""))
     deepARView.startFrameOutput(withOutputWidth: 640, outputHeight: 0, subframe: CGRect(x: 0, y: 0, width: 1, height: 1))
   }
 

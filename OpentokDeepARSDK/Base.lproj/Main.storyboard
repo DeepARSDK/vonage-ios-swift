@@ -36,16 +36,29 @@
                                     <constraint firstItem="wwa-up-neE" firstAttribute="centerX" secondItem="8Md-0h-edD" secondAttribute="centerX" id="yDQ-Vg-P7r"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mh4-sh-RHT">
+                                <rect key="frame" x="271" y="44" width="123" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Change filter">
+                                    <color key="titleColor" red="0.0" green="0.1048771621" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ba7-Tc-8I4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="8Md-0h-edD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0LF-Of-Poc"/>
+                            <constraint firstItem="Mh4-sh-RHT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="75Q-TA-w0K"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Md-0h-edD" secondAttribute="trailing" id="I7U-kR-GZ4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8Md-0h-edD" secondAttribute="bottom" id="Qqp-sg-xw2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mh4-sh-RHT" secondAttribute="trailing" constant="20" id="gd4-lC-tp1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="changeFilterBtn" destination="Mh4-sh-RHT" id="oCk-y9-dq6"/>
                         <outlet property="connectBtn" destination="wwa-up-neE" id="2aU-YF-ffa"/>
                     </connections>
                 </viewController>
