@@ -58,7 +58,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="changeFilterBtn" destination="Mh4-sh-RHT" id="oCk-y9-dq6"/>
                         <outlet property="connectBtn" destination="wwa-up-neE" id="2aU-YF-ffa"/>
                     </connections>
                 </viewController>

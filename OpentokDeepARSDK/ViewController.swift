@@ -12,11 +12,10 @@ import OpenTok
 
 let kApiKey = ""
 let kToken = ""
-let kSessionId = ""
 
 let deepARLicense = ""
 
-class ViewController: UIViewController, OTSessionDelegate, ARViewDelegate, OTPublisherDelegate {
+class ViewController: UIViewController, OTSessionDelegate, DeepARDelegate, OTPublisherDelegate {
 
   // MARK: OT instances
   lazy var otSession = {
